@@ -1,0 +1,32 @@
+---
+title: repair_clock_inverters(2)
+date: 24/09/08
+---
+
+# NAME
+
+repair_clock_inverters - repair clock inverters
+
+# SYNOPSIS
+
+repair_clock_inverters
+
+
+# DESCRIPTION
+
+The repair_clock_inverters command replaces an inverter in the clock
+tree with multiple fanouts with one inverter per fanout.  This
+prevents the inverter from splitting up the clock tree seen by CTS.
+It should be run before clock_tree_synthesis.
+
+# OPTIONS
+
+This command has no switches.
+
+# ARGUMENTS
+
+This command has no arguments.
+
+# EXAMPLES
+
+# SEE ALSO

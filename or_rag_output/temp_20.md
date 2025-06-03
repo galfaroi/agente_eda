@@ -1,0 +1,30 @@
+---
+title: optimize_mirroring(2)
+date: 24/09/08
+---
+
+# NAME
+
+optimize_mirroring - optimize mirroring
+
+# SYNOPSIS
+
+optimize_mirroring
+
+
+# DESCRIPTION
+
+The `optimize_mirroring` command mirrors instances about the Y axis in
+a weak attempt to reduce the total half-perimeter wirelength (HPWL).
+
+# OPTIONS
+
+This command has no switches.
+
+# ARGUMENTS
+
+This command has no arguments.
+
+# EXAMPLES
+
+# SEE ALSO
