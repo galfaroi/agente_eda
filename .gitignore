@@ -1,2 +1,15 @@
 # Ignore environment variable file
 .env 
+vector_db/
+
+# Add to .gitignore
+echo "vector_db/" >> .gitignore
+echo "*.pdf" >> .gitignore
+echo "*.PDF" >> .gitignore
+echo "my_vectors/" >> .gitignore
+ORAssistant_RAG_Dataset/
+or_rag_output/
+_concatenated_eda_corpus.csv
+*.sqlite
+temp_*.md
+vector_db/
