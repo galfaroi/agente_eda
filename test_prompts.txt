@@ -1,0 +1,51 @@
+# Basic Design Queries
+get all instances in the design
+list all pins of instance buff1
+show timing paths with slack less than 0
+
+# Floorplan Operations
+initialize floorplan with utilization 0.7 and aspect ratio 1.2
+add power rings with width 2 and spacing 1
+create pin placement at bottom of chip
+
+# Placement Queries
+perform global placement with density target 0.8
+legalize current placement
+optimize placement for timing
+
+# Routing Operations
+run global routing with overflow threshold 0.1
+perform detailed routing in clock nets
+fix DRC violations in routing
+
+# Timing Analysis
+report worst timing paths
+analyze setup violations
+check hold timing in clock network
+
+# Power Analysis
+estimate power consumption
+analyze IR drop in power grid
+report switching activity
+
+# Complex Workflows
+1. read design and initialize floorplan
+2. place standard cells
+3. create clock tree
+4. perform routing
+5. generate timing report
+
+# Python-Specific Queries
+get timing paths using Python API
+analyze congestion with Python functions
+export DEF using Python interface
+
+# Tcl-Specific Queries
+write timing reports using Tcl
+generate power report with Tcl commands
+create clock tree with Tcl script
+
+# Error Cases
+do something with the design
+modify the thing
+change timing somehow 

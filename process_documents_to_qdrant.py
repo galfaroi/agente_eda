@@ -10,12 +10,8 @@ from camel.types import EmbeddingModelType
 from camel.storages import QdrantStorage
 from camel.retrievers import VectorRetriever
 #from camel.utils import setups_env_vars # For OpenAI API key check
-from dotenv import load_dotenv
-import os
 
 load_dotenv()
-
-
 
 # --- Configuration ---
 JSONL_FILE_PATH = "query_dataset.jsonl"  # Your JSONL file
@@ -160,7 +156,7 @@ def main():
         print(f"Error: Input folder '{args.input_folder}' does not exist.")
         exit(1)
     
-    files_to_process = find_files(args.input_folder, [".md", ".markdown", ".json"])
+    files_to_process = find_files(args.input_folder, [".md", ".markdown", ".json"] )
 
     if not files_to_process:
         print("No .md or .json files found in the specified folder.")

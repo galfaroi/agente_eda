@@ -1,6 +1,75 @@
-# Ignore environment variable file
-.env 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LibreOffice/Office lock files
+.~lock.*#
+*.tmp
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Vector databases (these are large and can be regenerated)
 vector_db/
+my_vectors/
+
+# Large data files (optional - uncomment if you want to exclude)
+# *.csv
+# *.jsonl
+# *.xlsx
+
+# Temporary files
+*.log
+*.out
+*.err
+
+# Environment files with secrets
+.env
 
 # Add to .gitignore
 echo "vector_db/" >> .gitignore

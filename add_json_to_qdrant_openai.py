@@ -10,7 +10,7 @@ import numpy as np
 this script is used to add a jsonl from EDA CORPUS  file to a qdrant collection using openai embeddings.
 """
 # --- Configuration ---
-JSONL_FILE_PATH = "/home/german/Desktop/cse291/camel/query_dataset.jsonl"  # Path to your source JSONL
+JSONL_FILE_PATH = "rag_data.jsonl"
 QDRANT_PATH = "vector_db/"  # Path to your Qdrant data directory
 COLLECTION_NAME = "documents_collection"  # The collection name you used
 EMBEDDING_MODEL = "text-embedding-3-large"  # OpenAI's embedding model

@@ -1,0 +1,53 @@
+# EASY PROMPTS
+# These are single-command operations with simple parameters
+
+1. list all instances in the design
+2. report timing
+3. read design.def file
+4. save design to output.def
+5. what is the total design area
+
+# MEDIUM PROMPTS
+# These involve specific parameters or single complex operations
+
+1. run global placement with target density 0.7
+2. find timing paths with slack worse than -0.5ns
+3. create power stripes with width 2um and spacing 10um
+4. synthesize clock tree using buf1 as buffer
+5. place input pins on left side with spacing 2um
+
+# HARD PROMPTS
+# These involve multi-step operations or advanced concepts
+
+1. Timing Optimization Flow:
+   - Report worst timing paths
+   - Identify cells on critical paths
+   - Upsize cells with negative slack
+   - Run timing optimization
+   - Verify improvement
+
+2. Congestion-Driven Placement:
+   - Analyze current congestion
+   - Identify congested regions
+   - Spread cells in congested areas
+   - Maintain timing constraints
+
+3. Power Optimization:
+   - Analyze switching activity
+   - Identify high power cells
+   - Replace with low power alternatives
+   - Add power gating where possible
+   - Verify power reduction
+
+4. Mixed-Signal Setup:
+   - Create separate digital and analog domains
+   - Add isolation cells between domains
+   - Setup separate power grids
+   - Add coupling prevention shields
+
+5. Hierarchical Flow:
+   - Partition design into blocks
+   - Setup timing budgets for each block
+   - Implement blocks separately
+   - Perform top-level assembly
+   - Verify global timing closure 
