@@ -1,0 +1,18 @@
+camel-ai
+neo4j
+requests
+# requirements.txt
+gradio
+python-dotenv
+camel-toolkit
+openai
+py2neo
+qdrant-client
+autopep8
+# any other libs your docker_agent.py needs… 
+
+# Add missing packages
+unstructured
+unstructured[local-inference]
+ 
+
